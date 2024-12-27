@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Professional Web Developer Portfolio">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript">
+    <title>Professional Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--  Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- START - Pre-Loader  -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- END - Pre-Loader -->
+
+
+    <!-- START - Header Section -->
+    <header class="main-header">
+        <!-- START - 1 - Main-Menu Section -->
+        <div class="main-menu" id="fixed-main-menu">
+            <!-- Menu Icon for Mobile, hidden by default on desktop -->
+            <button class="menu-icon" onclick="toggleMobileMenu()" aria-label="Open Menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            
+            <!-- START - 1.1 - Logo -->
+            <a href="/" target="_self" title="Portfolio Logo" style="text-decoration: none;">
+                <div class="logo">
+                    <!-- Conditional Image Logo: hidden if not available -->
+                    <!-- <img class="image-logo" src="logo.png" alt="Portfolio's Image Logo"> -->
+                    <!-- Default Text Logo -->
+                    <h1 class="text-logo">Muhammad Usman</h1>
+                </div>
+            </a>
+            <!-- END - 1.1 - Logo -->
+            
+            <!-- START - 1.2 - Menu Items -->
+            <nav class="menu-items" id="mobile-menu" aria-label="Primary Navigation">
+                <ul>
+                    <li><a href="#about-section-id">About</a></li>
+                    <li><a href="#services-section-id">Services</a></li>
+                    <li><a href="#skills-section-id">Skills</a></li>
+                    <li><a href="#edu_&_expr-section-id">Education & Experience</a></li>
+                    <li><a href="#projects-section-id">Projects</a></li>
+                    <li><a href="#testimonials-section-id">Testimonials</a></li>
+                    <li><a href="#achievements-section-id">Achievements</a></li>
+                    <li><a href="#contact-section-id">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- END - 1.2 - Menu Items -->
+            
+            <!-- START - 2 - Header Buttons Section -->
+            <div class="header-buttons">
+                <button class="first-main-menu-btn"><a href="Muhammad-Usman-CV .pdf" target="_blank"><i class="fa fa-download" style="color: #fff" aria-hidden="true"></i> CV</a></button>
+            </div>
+            <!-- END - 2 - Header Buttons Section -->
+        </div>
+        <!-- END - 1 - Main-Menu Section -->
+    </header>
+    <!-- END - Header Section -->
+
+
+
+
+    <!-- START - Main Section -->
+    <main>
+
+        <!-- START - Hero Section -->
+        <section class="slider-section">
+            <div class="hero-slider">
+                <!-- Single Slide -->
+                <div class="slider-bg-img-container">
+                    <div class="slider-overlay-container">
+                        <div class="text">
+                            <h1 class="animated-title"><span>Hi👋 I'm <span class="highlighted-text">Muhammad Usman</span><span class="prsn-occupation"></span>, a Web Developer</span></h1>
+                            <p class="animated-description">I build professional & modern websites using latest technologies.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/musmandeveloper/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/musmandeveloper/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                        <div class="slider-buttons">
+                            <button class="first-btn"><a href="#contact-section-id">Hire Me</a></button>
+                            <button class="second-btn"><a href="Muhammad-Usman-CV .pdf" target="_blank">Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END - Hero Section -->
+
+
+        <!-- START - About Section -->
+        <section id="about-section-id" class="about-section">
+            <header class="about-header">
+                <h2>About Me</h2>
+            </header>
+            <div class="about-content">
+                <div class="personal-info">
+                    <div class="personal-profile" onclick="openProfilePopup('assets/about_section/IPS-38314 Orginal BlueBG .jpg')">
+                        <img src="assets/about_section/IPS-38314 Orginal BlueBG .jpg" alt="Muhammad Usman - Profile Picture" title="Muhammad Usman - Profile Picture">
+                    </div>
+                    <!-- PopUp Window Open when click on profile image -->
+                    <div id="profile-image-popup-modal" class="profile-image-popup-modal">
+                        <span class="close-btn" onclick="closeProfilePopup()">&times;</span>
+                        <img class="profile-popup-content" id="profile-popup-img">
+                    </div> 
+                    <div class="personal-bio-data">
+                        <div class="key-point">
+                            <span>Name:</span> <p>Muhammad Usman</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Date of Birth:</span> <p>30-09-2000</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Degree:</span> <p>Bachelor in Computer Science (BCS)</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Phone:</span> <p>+92 347 8250998</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Email:</span> <p>usmanedu8250998@gmail.com</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Address:</span> <p>HIT, Taxila Cantt, Rawalpindi, Punjab, Pakistan</p>
+                        </div>
+                        <div class="key-point">
+                            <span>Freelance:</span> <p>Available</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>I am a passionate developer with expertise in Web Development, App Development, and Software Development. 
+                        With a Bachelor's degree in Computer Science and a robust skill set in WordPress, Laravel, Flutter, Python, 
+                        and Machine Learning, I strive to create innovative solutions that drive success. My journey in the tech 
+                        world is fueled by a commitment to continuous learning and an enthusiasm for tackling new challenges. 
+                        Whether it's building a responsive website, developing a feature-rich application, or designing intuitive 
+                        user interfaces, I am dedicated to delivering high-quality results.
+                    </p>
+                </div>
+                <div class="statistics">
+                    <div class="card">
+                        <h3 class="stats-value" data-final-value="10">0</h3>
+                        <h4 class="stats-name">Years Experience</h4>
+                    </div>
+                    <div class="card">
+                        <h3 class="stats-value" data-final-value="200">0</h3>
+                        <h4 class="stats-name">Happy Clients</h4>
+                    </div>
+                    <div class="card">
+                        <h3 class="stats-value" data-final-value="300">0</h3>
+                        <h4 class="stats-name">Projects Completed</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: About Section -->
+
+
+
+        <!-- START - Services Section -->
+        <section id="services-section-id" class="services-section" aria-labelledby="services-heading">
+            <header class="services-header">
+                <h2>My Services</h2>
+            </header>
+            <div class="services-content wow slideInUp" data-wow-delay="1.5s" data-wow-duration="1.5s">
+                <div class="services-list">
+                    <!-- Service Card 2 -->
+                    <article class="serv-tile-box" aria-labelledby="service-web-design">
+                        <div class="serv-tile-box-avatar">
+                            <i class="fa fa-laptop-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="serv-tile-box-info">
+                            <h3 id="service-web-design" class="serv-tile-box-title">Web Design</h3>
+                            <p class="serv-tile-box-meta">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+                        </div>
+                    </article>                
+                    <!-- Service Card 3 -->
+                    <article class="serv-tile-box" aria-labelledby="service-web-development">
+                        <div class="serv-tile-box-avatar">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="serv-tile-box-info">
+                            <h3 id="service-web-development" class="serv-tile-box-title">Web Development</h3>
+                            <p class="serv-tile-box-meta">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+                        </div>
+                    </article>
+                    <!-- Service Card 4 - WordPress -->
+                    <article class="serv-tile-box" aria-labelledby="service-wordpress">
+                        <div class="serv-tile-box-avatar">
+                            <i class="fa-brands fa-wordpress" aria-hidden="true"></i>
+                        </div>
+                        <div class="serv-tile-box-info">
+                            <h3 id="service-wordpress" class="serv-tile-box-title">WordPress</h3>
+                            <p class="serv-tile-box-meta">Building and customizing WordPress sites for your business needs.</p>
+                        </div>
+                    </article>
+                    <!-- Service Card 5 - SEO -->
+                    <article class="serv-tile-box" aria-labelledby="service-seo">
+                        <div class="serv-tile-box-avatar">
+                            <i class="fa fa-chart-line" aria-hidden="true"></i>
+                        </div>
+                        <div class="serv-tile-box-info">
+                            <h3 id="service-seo" class="serv-tile-box-title">SEO</h3>
+                            <p class="serv-tile-box-meta">Optimizing websites to enhance search engine rankings and visibility.</p>
+                        </div>
+                    </article>
+                </div>            
+            </div>
+        </section>          
+        <!-- END - Services Section -->
+
+
+
+        <!-- START - Skills Section -->
+        <section id="skills-section-id" class="skills-section" aria-labelledby="skills-heading">
+            <header class="skills-header">
+                <h2 id="skills-heading" class="display-5 mb-5">My Skills</h2>
+            </header>
+            <div class="skills-content">
+                <!-- Skill: HTML -->
+                <article class="skill">
+                    <div class="skill-info">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-percentage">90%</div>    
+                    </div>
+                    <div class="skill-progress-bar first-skill-progress-bar">
+                        <div class="skill-progress-fill"  data-percentage="90%"></div>
+                    </div>
+                </article>
+                <!-- Skill: CSS -->
+                <article class="skill">
+                    <div class="skill-info">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-percentage">70%</div>    
+                    </div>
+                    <div class="skill-progress-bar second-skill-progress-bar">
+                        <div class="skill-progress-fill" data-percentage="70%"></div>
+                    </div>
+                </article>
+                <!-- Skill: Angular JS -->
+                <article class="skill">
+                    <div class="skill-info">
+                        <div class="skill-name">Angular JS</div>
+                        <div class="skill-percentage">55%</div>
+                    </div>
+                    <div class="skill-progress-bar fourth-skill-progress-bar">
+                        <div class="skill-progress-fill" data-percentage="55%"></div>
+                    </div>
+                </article>                
+                <!-- Skill: JavaScript -->
+                <article class="skill">
+                    <div class="skill-info">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-percentage">85%</div>
+                    </div>
+                    <div class="skill-progress-bar third-skill-progress-bar">
+                        <div class="skill-progress-fill" data-percentage="85%"></div>
+                    </div>
+                </article>
+                <!-- Skill: WordPress -->
+                <article class="skill">
+                    <div class="skill-info">
+                        <div class="skill-name">WordPress</div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill-progress-bar fifth-skill-progress-bar">
+                        <div class="skill-progress-fill" data-percentage="80%"></div>
+                    </div>
+                </article>
+            </div>
+        </section>        
+        <!-- END - Skills Section -->
+
+
+
+        <!-- START - Education & Experience Section -->
+        <section id="edu_&_expr-section-id" class="edu-expr-section" aria-labelledby="education-experience-heading">
+            <header class="edu-expr-header">
+                <h2>My Education & Experience</h2>
+            </header>
+            <div class="edu-expr-content">
+                <!-- Education Timeline -->
+                <div class="education-timeline">
+                    <div class="education-header">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="edu-timeline-container">
+                        <div class="edu-cards" id="edu-cards">
+                            <!-- Cards will be dynamically added here -->
+                        </div>
+                        <div class="edu-timeline" id="edu-timeline">
+                            <!-- Nodes will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience Timeline -->
+                <div class="experience-timeline">
+                    <div class="experience-header">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="expr-timeline-container">
+                        <div class="expr-timeline" id="expr-timeline">
+                            <!-- Nodes will be dynamically added here -->
+                        </div>
+                        <div class="expr-cards" id="expr-cards">
+                            <!-- Cards will be dynamically added here -->
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+        </section>                   
+        <!-- END - Education & Experience Section -->
+
+
+
+        <!-- START: Projects Section -->
+        <section id="projects-section-id" class="projects-section" aria-labelledby="projects-heading">
+            <header class="projects-header">
+                <h2>My Projects</h2>
+            </header>
+            <div class="projects-content">
+                <div class="projects-list">
+                    <article class="project" data-title="Project-1" data-card="1">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 1 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 1 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p> 
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,1)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-1">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(1)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',1)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',1)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',1)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',1)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(1)"><i class="fa fa-copy"></i><span id="copy-text-1" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project"  data-title="Project-2" data-card="2">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 2 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 2 - Title</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-check-circle" style="color: #1A76D1" aria-hidden="true"></i> Completed</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p> 
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,2)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-2">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(2)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',2)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',2)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',2)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',2)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(2)"><i class="fa fa-copy"></i><span id="copy-text-2" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project"  data-title="Project-3" data-card="3">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 3 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 3 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-pause-circle" style="color: #1A76D1" aria-hidden="true"></i> On-Hold</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p>  
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,3)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-3">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(3)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',3)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',3)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',3)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',3)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(3)"><i class="fa fa-copy"></i><span id="copy-text-3" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-4" data-card="4">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 4 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 4 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-pause-circle" style="color: #1A76D1" aria-hidden="true"></i> On-Hold</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p> 
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,4)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-4">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(4)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',4)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',4)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',4)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',4)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(4)"><i class="fa fa-copy"></i><span id="copy-text-4" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-5" data-card="5">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 5 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 5 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-hourglass-half" style="color: #1A76D1" aria-hidden="true"></i> In-Pending</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p>  
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,5)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-5">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(5)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',5)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',5)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',5)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',5)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(5)"><i class="fa fa-copy"></i><span id="copy-text-5" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>                        
+                    </article>
+                    <article class="project" data-title="Project-6" data-card="6">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 6 Thumbnail" title="Project 1 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 6 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,6)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-6">
+                                <div class="share-dropdown-header">
+                                    <h4>Social Share</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(6)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',6)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',6)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',6)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',6)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(6)"><i class="fa fa-copy"></i><span id="copy-text-6" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-7" data-card="7">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 7 Thumbnail" title="Project 7 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 7 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,7)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-7">
+                                <div class="share-dropdown-header">
+                                    <h4>Share on</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(7)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',7)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',7)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',7)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',7)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(7)"><i class="fa fa-copy"></i><span id="copy-text-7" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-8" data-card="8">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 7 Thumbnail" title="Project 7 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 8 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,7)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-7">
+                                <div class="share-dropdown-header">
+                                    <h4>Share on</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(7)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',7)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',7)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',7)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',7)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(7)"><i class="fa fa-copy"></i><span id="copy-text-7" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-9" data-card="9">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 7 Thumbnail" title="Project 7 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 9 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,7)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-7">
+                                <div class="share-dropdown-header">
+                                    <h4>Share on</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(7)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',7)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',7)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',7)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',7)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(7)"><i class="fa fa-copy"></i><span id="copy-text-7" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-10" data-card="10">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 7 Thumbnail" title="Project 7 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 10 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,7)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-7">
+                                <div class="share-dropdown-header">
+                                    <h4>Share on</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(7)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',7)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',7)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',7)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',7)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(7)"><i class="fa fa-copy"></i><span id="copy-text-7" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project" data-title="Project-11" data-card="11">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 7 Thumbnail" title="Project 7 - Title with all long details & service category">
+                        <div class="project-title-container">
+                            <h3 class="project-title">Project 11 - Title with all long details & service category</h3>
+                        </div>
+                        <div class="project-link-source">
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa fa-globe" style="color: #1A76D1" aria-hidden="true"></i> View Live</a></p>
+                            <p><a href="#" target="_blank" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: #1A76D1" aria-hidden="true"></i> View Github</a></p>
+                            <p><i class="fa fa-spinner" style="color: #1A76D1" aria-hidden="true"></i> In-Progress</p>
+                        </div>
+                        <div class="project-meta-info">
+                            <p><i class="fa fa-calendar" style="color: #1A76D1" aria-hidden="true"></i> 24 Jun 2024</p>
+                            <p><i class="fa fa-eye" style="color: #1A76D1" aria-hidden="true"></i> 0</p> 
+                            <p><a href="#" class="share-icon-text" onclick="toggleShareDropdown(event,7)"><i class="fa fa-share-nodes" style="color: #1A76D1" aria-hidden="true"></i> Share</a></p>
+                            <div class="share-dropdown-content" id="share-dropdown-7">
+                                <div class="share-dropdown-header">
+                                    <h4>Share on</h4>
+                                    <span class="share-dropdown-close-icon" onclick="closeShareDropdown(7)">&#10005;</span>
+                                </div>
+                                <hr style="margin: 5px 0px 15px">
+                                <a onclick="shareToPlatform('Facebook',7)"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                                <a onclick="shareToPlatform('Twitter',7)"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                                <a onclick="shareToPlatform('LinkedIn',7)"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                                <a onclick="shareToPlatform('WhatsApp',7)"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                <a onclick="copyLink(7)"><i class="fa fa-copy"></i><span id="copy-text-7" class="copy-link-text">Copy Link</span></a>
+                            </div>
+                        </div>
+                    </article>                                       
+                </div>
+                <div class="projects-pagination">
+                    <span id="pagination-buttons"></span>
+                </div>                
+            </div>
+        </section>
+        <!-- END: Projects Section -->
+
+
+        <!-- START - Testimonials Section -->
+        <section id="testimonials-section-id" class="testimonials-section">
+            <header class="testimonials-header">
+                <h2>My Testimonials</h2>
+            </header>
+            <div class="testimonials-content">
+                <article class="testimonial">
+                    <blockquote class="testimonial-text">
+                        <i class="fa fa-quote-left starting-quotation-mark"></i>
+                        <p>
+                            This 1st product has transformed my workflow and increased productivity beyond what I thought was possible. 
+                            The team’s support has been phenomenal, guiding me every step of the way.
+                        </p>
+                        <i class="fa fa-quote-right closing-quotation-mark"></i>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/100" alt="John Doe Avatar">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">John Doe 1</h4>
+                            <p class="author-designation">CEO at Example Corp</p>
+                            <div class="author-social-links">
+                                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                </article>
+                <article class="testimonial">
+                    <blockquote class="testimonial-text">
+                        <i class="fa fa-quote-left starting-quotation-mark"></i>
+                        <p>
+                            This 2nd product has transformed my workflow and increased productivity beyond what I thought was possible. 
+                            The team’s support has been phenomenal, guiding me every step of the way.
+                        </p>
+                        <i class="fa fa-quote-right closing-quotation-mark"></i>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/100" alt="John Doe Avatar">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">John Doe 2</h4>
+                            <p class="author-designation">CEO at Example Corp</p>
+                            <div class="author-social-links">
+                                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                </article>
+                <article class="testimonial">
+                    <blockquote class="testimonial-text">
+                        <i class="fa fa-quote-left starting-quotation-mark"></i>
+                        <p>
+                            This 3rd product has transformed my workflow and increased productivity beyond what I thought was possible. 
+                            The team’s support has been phenomenal, guiding me every step of the way.
+                        </p>
+                        <i class="fa fa-quote-right closing-quotation-mark"></i>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/100" alt="John Doe Avatar">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">John Doe 3</h4>
+                            <p class="author-designation">CEO at Example Corp</p>
+                            <div class="author-social-links">
+                                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                </article>
+                <!-- Dots will dynamically be placed here by JavaScript -->
+                <div class="testimonial-dots"></div>
+            </div>
+        </section>        
+        <!-- END - Testimonial Section -->
+
+
+
+        <!-- START - Achievements -->
+        <section id="achievements-section-id" class="achievements-section">
+            <header class="achievements-header">
+                <h2>My Achievements</h2>
+            </header>
+            <div class="achievements-carousel">
+                <div class="carousel-track">
+                    <article class="achievement">
+                        <div class="achievement-card" onclick="openPopup('assets/certificates_achievements/DSTP_Freelancing_Certificate.png')">
+                            <img src="assets/certificates_achievements/DSTP_Freelancing_Certificate.png" alt="DigiSkills Freelancing Course Certificate" title="Certificate 1">
+                            <h3>DigiSkills Freelancing Course Certificate</h3>
+                        </div>
+                    </article>
+                    <article class="achievement">
+                        <div class="achievement-card" onclick="openPopup('assets/certificates_achievements/DSTP_Wordpress_Certificate.png')">
+                            <img src="assets/certificates_achievements/DSTP_Wordpress_Certificate.png" alt="DigiSkills Wordpress Course Certificate" title="Certificate 2">
+                            <h3>DigiSkills Wordpress Course Certificate</h3>
+                        </div>
+                    </article>
+                    <article class="achievement">
+                        <div class="achievement-card" onclick="openPopup('assets/certificates_achievements/DSTP_Graphic-Designing_Certificate.png')">
+                            <img src="assets/certificates_achievements/DSTP_Graphic-Designing_Certificate.png" alt="DigiSkills Graphic Designing Course Certificate" title="Certificate 3">
+                            <h3>DigiSkills Graphic Designing Course Certificate</h3>
+                        </div>
+                    </article>
+                    <article class="achievement">
+                        <div class="achievement-card" onclick="openPopup('assets/certificates_achievements/DSTP_SEO_Certificate.png')">
+                            <img src="assets/certificates_achievements/DSTP_SEO_Certificate.png" alt="DigiSkills SEO Course Certificate" title="Certificate 4">
+                            <h3>DigiSkills SEO Course Certificate</h3>
+                        </div>
+                    </article>            
+                </div>
+                <!-- Dots will dynamically be placed here by JavaScript -->
+                <div class="carousel-dots"></div>
+                <!-- PopUp Window Open when click on anyone -->
+                <div id="achievement-popup-modal" class="achievement-popup-modal">
+                    <span class="close-btn" onclick="closePopup()">&times;</span>
+                    <img class="achievement-popup-content" id="achievement-popup-img">
+                </div> 
+            </div>
+        </section>
+        <!-- END - Achievements -->              
+
+
+
+        <!-- START - Contact Section -->
+        <section id="contact-section-id" class="contact-section" aria-labelledby="contact-heading">
+            <header class="contact-header">
+                <h2 id="contact-heading" class="section-title">Contact Me</h2>
+                <!-- <p class="contact-description">Feel free to reach out for collaborations!</p> -->
+            </header>
+            <div class="contact-content">
+                <form class="contact-form" aria-label="Contact Form">
+                    <label for="name">Name<span style="color: red;"> *</span></label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="email">Email<span style="color: red;"> *</span></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="subject">Subject<span style="color: red;"> *</span></label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <label for="message">Message<span style="color: red;"> *</span></label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="submit-btn"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 15px;"></i>Send Email</button>
+                </form>
+            </div>
+        </section>
+        <!-- END - Contact Section -->
+        
+        <!-- 
+        <center>
+            <iframe width="760" height="380" src="https://www.youtube.com/embed/gKe9R-5uOCc?si=saUzZVs-SLFZ7PlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>                          
+        <center>
+            <iframe width="760" height="380" src="https://www.youtube.com/embed/gKe9R-5uOCc?si=saUzZVs-SLFZ7PlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>  
+        -->
+
+    </main>
+    <!-- END - Main Section -->
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-section">
+            <!-- Footer Columns -->
+            <div class="footer-columns">
+                <div class="footer-column-1">
+                    <h3>About</h3>
+                    <div class="footer-about-content">
+                        <p class="footer-about-description">I am a passionate developer with expertise in Web Development, App Development, and Software Development. With a Bachelor's degree in Computer Science and a robust skill set in WordPress, Laravel, Flutter, Python, and Machine Learning, I strive to create innovative solutions that drive success.</p>
+                        <ul class="footer-about-social-links">
+                            <li><a href="https://www.linkedin.com/in/musmandeveloper/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/musmandeveloper" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>    
+                    </div>
+                </div>
+                <div class="footer-column-2">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-pages-links">
+                        <li><a href="#about-section-id">About</a></li>
+                        <li><a href="#services-section-id">Services</a></li>
+                        <li><a href="#skills-section-id">Skills</a></li>
+                        <li><a href="#contact-section-id">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column-3">
+                    <h3>Get in Touch</h3>
+                    <ul class="footer-contact-details">
+                        <li><div><a href="mailto:usmanedu8250998@gmail.com" target="_blank"><span><i class="fa fa-envelope"></i></span><p>usmanedu8250998@gmail.com</p></a></div></li>
+                        <li><div><a href="tel:+923478250998" target="_blank"><span><i class="fa fa-phone"></i></span><p>+923478250998</p></a></div></li>
+                        <li><div><a href="https://wa.me/923478250998" target="_blank"><span><i class="fa-brands fa-whatsapp"></i></span><p>+923478250998</p></a></div></li>
+                        <li><div><a href="https://www.google.com/maps?q=Taxila+Cantt" target="_blank"><span><i class="fa fa-location-dot"></i></span><p>Taxila Cantt, PO 47070, Taxila, Punjab, Pakistan</p></a></div></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Footer Horizontal Line -->
+            <hr>
+            <!-- Footer Horizontal Line -->
+
+            <!-- Footer Copyright Bar -->
+            <div class="footer-copyright">
+                <p>
+                    Copyright &copy; 2024 - <span id="current-year"><script>document.write(new Date().getFullYear());</script></span> 
+                    <a href="#" target="_self">MUsmanDeveloper</a> All rights reserved.
+                    
+                </p>
+            </div>
+            <!-- Footer Copyright Bar -->
+        </div>
+    </footer>
+    <!-- Footer Section -->
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()" title="back-to-top">&uarr;</button>
+    <!-- Back to Top Button -->
+
+
+
+    <!-- Import External Javascript File -->
+    <script src="script.js"></script>
+    <!-- Import External Javascript File -->
+
+    <!--  EmailJS CDN -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!--  EmailJS CDN -->
+
+
+</body>
+</html>
+
+
