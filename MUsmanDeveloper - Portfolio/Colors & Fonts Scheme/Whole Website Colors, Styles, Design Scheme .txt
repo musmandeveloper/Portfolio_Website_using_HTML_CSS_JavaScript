@@ -1,0 +1,209 @@
+
+
+
+                           -------------------------------------------------------------------------
+                           |   ### **Detailed Color, Style, and Design Scheme for Your Website**   |
+                           -------------------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+This scheme focuses on various elements such as **primary/secondary colors**, **hover effects**, **sections**, and **link styling** 
+to ensure a cohesive and polished design.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+### 1. **Primary Color**
+- **Hex Code**: `#1A76D1`
+- **Use**: The primary color is used for key interactive elements such as buttons, links (on hover), and active states. It creates a 
+    visual hierarchy and encourages users to engage.
+  
+---
+
+### 2. **Secondary Color**
+- **Hex Code**: `#007BFF`
+- **Use**: This secondary color complements the primary color and can be used for secondary call-to-action buttons, subtle accents, 
+    or as a color for non-primary elements (sub-links, secondary buttons).
+
+---
+
+### 3. **Text Color**
+- **Hex Code**: `#2C2D3F`
+- **Use**: General text, non-hovered links, and descriptions. This dark color ensures high readability across light backgrounds.
+
+---
+
+### 4. **Background Color**
+- **Hex Code**: `#ffffff` (White)
+- **Use**: The background color is clean and neutral, ensuring that the content is easy to read and that primary/secondary colors 
+    stand out.
+
+---
+
+### 5. **Topbar Links Color**
+- **Normal Color**: `#2C2D3F`
+- **Hover Color**: `#1A76D1`
+- **Use**: For the links displayed in the **top navigation bar**. The hover color switches to the primary color to show interactivity.
+
+---
+
+### 6. **Main Menu Item Colors**
+- **Normal Color**: `#2C2D3F`
+- **Hover Color**: `#1A76D1`
+- **Use**: For the main navigation bar, providing consistency with topbar links. The primary color on hover highlights user interaction.
+
+---
+
+### 7. **Sub-Menu Item Colors**
+- **Normal Color**: `#2C2D3F`
+- **Hover Color**: `#007BFF` (Secondary color)
+- **Use**: For dropdown or sub-items under the main navigation links. A subtler hover color differentiates them from primary menu items 
+    while keeping the design consistent.
+
+---
+
+### 8. **Section Headings (H1-H6) Colors**
+- **Color**: `#000000`
+- **Use**: Section headings should be bold and clearly visible. Black is used to give a strong emphasis and create visual separation 
+    between sections.
+
+---
+
+### 9. **Project/Posts Lists Colors**
+- **Title**: `#1A76D1` (Primary Color)
+- **Date/Time/Category**: `#888888` (Gray for metadata)
+- **Description**: `#2C2D3F` (Regular text color)
+- **Hover Effect**: On hovering over the **title**, it changes to a darker tone of the primary color for better contrast.
+
+---
+
+### 10. **Single Page (Projects/Blogs/Posts)**
+- **Title**: `#1A76D1` (Primary Color)
+- **Content Text**: `#2C2D3F`
+- **Background Color**: `#FFFFFF`
+- **Hover Color for Internal Links**: `#007BFF` (Secondary color)
+- **Hover Color for External Links**: `#FF0000` (To highlight external navigation)
+
+---
+
+### 11. **"You May Like" (Suggested Posts/Related Posts)**
+- **Link Color**: `#1A76D1` (Primary color for post links)
+- **Hover Color**: `#007BFF`
+- **Description**: `#2C2D3F` (Regular text)
+
+---
+
+### 12. **Sidebars and Widgets (Sidebars Sections, Links)**
+- **Sidebar Background**: `#F8F8F8` (Light grey)
+- **Sidebar Heading**: `#1A76D1` (Primary color to match other section titles)
+- **Sidebar Links**: `#2C2D3F`
+- **Sidebar Link Hover Color**: `#007BFF` (Secondary color for consistency)
+
+---
+
+### 13. **Buttons Color Scheme**
+- **Primary Button**:
+  - Background: `#1A76D1`
+  - Text: `#FFFFFF`
+  - Hover Background: `#144a7c` (Darker tone of primary color)
+  
+- **Secondary Button**:
+  - Background: `#007BFF`
+  - Text: `#FFFFFF`
+  - Hover Background: `#0056b3` (Darker tone of secondary color)
+
+---
+
+### 14. **Comments Section Color Scheme**
+- **User Name**: `#1A76D1` (Primary color for commenter's name)
+- **Comment Date**: `#888888` (Grey for date/timestamps)
+- **Comment Text**: `#2C2D3F`
+- **Reply/Interaction Links**: `#007BFF` (Secondary color)
+- **Reply Link Hover**: `#1A76D1` (Primary color)
+
+---
+
+### 15. **Footer Color Scheme**
+- **Footer Background**: `#222222` (Dark grey)
+- **Footer Column Headings**: `#FFFFFF` (White for readability)
+- **Footer Links**: 
+  - Normal: `#BBBBBB` (Light grey for subtlety)
+  - Hover: `#1A76D1` (Primary color)
+- **Footer Text**: `#BBBBBB` (Light grey for general text)
+
+---
+
+### **Overview of the Design Scheme**
+
+1. **Primary Color**: `#1A76D1`  
+   - Used for: Buttons, hovered links, and key visual elements.
+   
+2. **Secondary Color**: `#007BFF`  
+   - Used for: Sub-menu links, secondary buttons, and some hover effects.
+
+3. **Text Color**: `#2C2D3F`  
+   - Used for: General text and descriptions.
+
+4. **Background Color**: `#FFFFFF`  
+   - Used for: Body background and content sections.
+
+5. **Topbar Links**:  
+   - Normal: `#2C2D3F`
+   - Hover: `#1A76D1` (Primary color)
+
+6. **Main Menu Links**:  
+   - Normal: `#2C2D3F`
+   - Hover: `#1A76D1`
+
+7. **Sub-Menu Links**:  
+   - Normal: `#2C2D3F`
+   - Hover: `#007BFF`
+
+8. **Headings**: `#000000`  
+   - Used for: Section titles and headings.
+
+9. **Posts/Projects Titles**: `#1A76D1`  
+   - Metadata: `#888888`
+   - Description: `#2C2D3F`
+
+10. **Single Page Titles**: `#1A76D1`  
+    - Hover on Links: `#007BFF` (Internal) or `#FF0000` (External)
+
+11. **Sidebar**:  
+    - Background: `#F8F8F8`
+    - Headings: `#1A76D1`
+    - Links: `#2C2D3F`
+    - Hover Links: `#007BFF`
+
+12. **Buttons**:  
+    - Primary: `#1A76D1`, hover: `#144a7c`
+    - Secondary: `#007BFF`, hover: `#0056b3`
+
+13. **Footer**:  
+    - Background: `#222222`
+    - Headings: `#FFFFFF`
+    - Links: `#BBBBBB`, hover: `#1A76D1`
+
+
+
+---------------------------------------------------------------------------------------------------------------
+This detailed breakdown ensures a consistent, clean, and professional design across all areas of your website.
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
