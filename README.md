@@ -22,21 +22,13 @@ The project have following features:
 The detailed description of website featured sections are below:
 
 ### 1. About:
-- A brief introduction about **M Usman**, including a professional summary, passions, and career goals.
+- A brief introduction about person/company **M Usman**, including a professional summary, passions, and career goals.
 
 ### 2. Services:
-- Highlights of the services offered, such as:
-  - Website Development
-  - Frontend Development
-  - Responsive Design
-  - WordPress Development
+- Highlights of the services offered, such as; Website Development, App Development, WordPress Development, SEO, etc
 
 ### 3. Skills:
-- Showcases technical skills with visually engaging progress bars or icons, covering:
-  - **Frontend**: HTML, CSS, JavaScript, React.js
-  - **Backend**: Node.js, Express.js
-  - **Database**: MongoDB, MySQL
-  - **CMS**: WordPress, Shopify
+- Showcases technical skills with visually engaging percentage progress bars or icons, covering; HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL, WordPress, Shopify, etc
 
 ### 4. Education & Experience:
 - Displays academic achievements and professional milestones on a timeline:
