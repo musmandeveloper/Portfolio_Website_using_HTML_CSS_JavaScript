@@ -7,6 +7,9 @@
 A modern and professional portfolio website designed to showcase the skills, achievements, and projects of **M Usman**, a passionate web developer. Built entirely with **HTML**, **CSS**, and **JavaScript**, this website is fully responsive, visually appealing, and tailored for showcasing personal and professional highlights effectively.
 
 
+## 📸 Screenshots:
+Below are the following screenshots (SS) of the project:
+
 ## 🚀 Features:
 - **Clean & Responsive Design**: Works seamlessly across all devices, from desktops to mobile screens.
 - **Dynamic Content**: Interactive elements implemented using JavaScript.
