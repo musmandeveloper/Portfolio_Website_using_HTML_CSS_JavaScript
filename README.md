@@ -10,7 +10,10 @@ A modern and professional portfolio website designed to showcase the skills, ach
 ## 📸 Screenshots:
 Below are the following screenshots (SS) of the project:
 
+
 ## 🚀 Features:
+The project have following features:
+
 - **Clean & Responsive Design**: Works seamlessly across all devices, from desktops to mobile screens.
 - **Dynamic Content**: Interactive elements implemented using JavaScript.
 - **SEO Optimized**: Structured for improved visibility on search engines.
