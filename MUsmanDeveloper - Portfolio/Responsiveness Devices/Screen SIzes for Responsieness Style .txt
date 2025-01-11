@@ -1,0 +1,18 @@
+
+
+
+The different screen sizes according to Google Inspect for responsive layout:
+
+
+1. S-Mobile devices (up to 320px)
+1. M-Mobile devices (321px to 375px)
+1. L-Mobile devices (376 to 425px)
+2. Tablets (426px to 768px)
+3. Small desktops (769px to 1024px)
+4. Large desktops (1025px to 1440px)
+5. High-resolution/4K/TV screens (1441px to 2560px)
+
+
+
+
+
