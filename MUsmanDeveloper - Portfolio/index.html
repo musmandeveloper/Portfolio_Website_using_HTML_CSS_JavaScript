@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- START - Accessibility Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Professional Web Developer Portfolio">
-    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript">
-    <title>M Usman Developer - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!--  Font Awesome CDN -->
+    <!-- Sets a color for the browser toolbar (on mobile devices), which can improve the user experience. -->
+    <meta name="theme-color" content="#0a74da">
+    <!-- END - Accessibility Tags -->
+
+    <!-- START - SEO Tags -->
+    <link rel="canonical" href="https://musmandeveloper.vercel.app">
+    <title>M Usman Developer - Muhammad Usman - Portfolio</title>
+    <meta name="description" content="I am passionate developer specializing 
+    in Web Development, App Development, and Software Development. With expertise in WordPress, 
+    Laravel, Flutter, Python, and Machine Learning, I deliver innovative solutions to drive 
+    success. Explore my portfolio for cutting-edge projects and skills."/>
+    <meta name="keywords" content="M Usman Developer, Muhammad Usman, Web Developer, App Developer, 
+    Software Developer, WordPress Expert, Laravel Developer, Flutter Developer, Python Developer, 
+    Machine Learning, Portfolio, Innovative Solutions, Computer Science Graduate" />
+    <!-- The value "index, follow" ensures the page is indexed and its links are followed by seo robots -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Muhammad Usman">
+    <!-- END - SEO Tags -->
+
+    <!-- START - External Links -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- CSS for all Devices -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS for Mobile Devices -->
+    <link rel="stylesheet" href="mobiles-style.css">
+    <!-- CSS for Tablet Devices -->
+    <link rel="stylesheet" href="tablets-style.css">
+    <!-- CSS for Desktops Devices -->
+    <link rel="stylesheet" href="desktops-style.css"> 
+    <!-- CSS for 4k/TV Devices -->
+    <link rel="stylesheet" href="televisions-style.css">
+    <!-- START - External Links -->
+
+    <!-- START - Open Graph (OG) Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="M Usman Developer Portfolio">
+    <meta property="og:description" content="Muhammad Usman is a passionate developer with expertise in Web Development, App Development, and Software Development. Explore my portfolio for innovative projects.">
+    <!-- The URL of the page being shared. -->
+    <meta property="og:url" content="https://musmandeveloper.vercel.app"> 
+    <!-- An image URL (logo or featured image) for the preview when shared. Replace path with actual image. -->
+    <meta property="og:image" content="assets/about_section/IPS-38314 Orginal BlueBG .jpg">
+    <meta property="og:site_name" content="Muhammad Usman">
+    <!-- END - Open Graph Tags -->
+
+    <!-- START - Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="M Usman Developer Portfolio">
+    <meta name="twitter:description" content="Muhammad Usman is a passionate developer with expertise in Web Development, App Development, and Software Development. Explore my portfolio for innovative projects.">
+    <!-- An image URL (logo or featured image) for the preview when shared. Replace path with actual image. -->
+    <meta name="twitter:image" content="assets/about_section/IPS-38314 Orginal BlueBG .jpg">
+    <meta name="twitter:creator" content="@Search2Program">
+    <!-- END - Twitter Card Tags -->    
+
 </head>
 
 <body>
@@ -22,47 +73,42 @@
 
 
     <!-- START - Header Section -->
-    <header class="main-header">
-        <!-- START - 1 - Main-Menu Section -->
-        <div class="main-menu" id="fixed-main-menu">
-            <!-- Menu Icon for Mobile, hidden by default on desktop -->
-            <button class="menu-icon" onclick="toggleMobileMenu()" aria-label="Open Menu">
-                <i class="fa fa-bars"></i>
-            </button>
-            
-            <!-- START - 1.1 - Logo -->
-            <a href="/" target="_self" title="Portfolio Logo" style="text-decoration: none;">
-                <div class="logo">
-                    <!-- Conditional Image Logo: hidden if not available -->
-                    <!-- <img class="image-logo" src="logo.png" alt="Portfolio's Image Logo"> -->
-                    <!-- Default Text Logo -->
-                    <h1 class="text-logo">Muhammad Usman</h1>
-                </div>
-            </a>
-            <!-- END - 1.1 - Logo -->
-            
-            <!-- START - 1.2 - Menu Items -->
-            <nav class="menu-items" id="mobile-menu" aria-label="Primary Navigation">
-                <ul>
-                    <li><a href="#about-section-id">About</a></li>
-                    <li><a href="#services-section-id">Services</a></li>
-                    <li><a href="#skills-section-id">Skills</a></li>
-                    <li><a href="#edu_&_expr-section-id">Education & Experience</a></li>
-                    <li><a href="#projects-section-id">Projects</a></li>
-                    <li><a href="#testimonials-section-id">Testimonials</a></li>
-                    <li><a href="#achievements-section-id">Achievements</a></li>
-                    <li><a href="#contact-section-id">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- END - 1.2 - Menu Items -->
-            
-            <!-- START - 2 - Header Buttons Section -->
-            <div class="header-buttons">
-                <button class="first-main-menu-btn"><a href="Muhammad-Usman-CV .pdf" target="_blank"><i class="fa fa-download" style="color: #fff" aria-hidden="true"></i> CV</a></button>
+    <header class="main-header" id="fixed-main-menu">
+        <!-- START - 0 - Menu Icon for Mobile, hidden by default on desktop -->
+        <button class="menu-icon" onclick="toggleMobileMenu()" aria-label="Mobile Menu Icon">
+            <i class="fa fa-bars" style="font-size: 28px;"></i>
+        </button>
+        <!-- END - 0 - Menu Icon for Mobile, hidden by default on desktop -->
+        
+        <!-- START - 1 - Logo -->
+            <div class="logo">
+                <!-- Condition - Image Logo hidden if not available -->
+                <!-- <a href="/" target="_self" title="Portfolio Logo" style="text-decoration: none;"><img class="image-logo" src="logo.png" alt="Portfolio's Image Logo"></a> -->
+                <!-- Default Text Logo -->
+                <a href="/" target="_self" title="Portfolio Logo" style="text-decoration: none;"><h1 class="text-logo">Muhammad Usman</h1></a>
             </div>
-            <!-- END - 2 - Header Buttons Section -->
+        <!-- END - 1 - Logo -->
+        
+        <!-- START - 2 - Menu Items -->
+        <nav class="menu-items" id="mobile-menu" aria-label="Primary Menu or Main Menu">
+            <ul>
+                <li><a href="#about-section-id">About</a></li>
+                <li><a href="#services-section-id">Services</a></li>
+                <li><a href="#skills-section-id">Skills</a></li>
+                <li><a href="#edu_&_expr-section-id">Education & Experience</a></li>
+                <li><a href="#projects-section-id">Projects</a></li>
+                <li><a href="#testimonials-section-id">Testimonials</a></li>
+                <li><a href="#achievements-section-id">Achievements</a></li>
+                <li><a href="#contact-section-id">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- END - 2 - Menu Items -->
+        
+        <!-- START - 3 - Header Buttons Section -->
+        <div class="header-buttons">
+            <button class="first-main-menu-btn"><a href="Muhammad-Usman-CV .pdf" target="_blank"><i class="fa fa-download" style="color: #fff" aria-hidden="true"></i> CV</a></button>
         </div>
-        <!-- END - 1 - Main-Menu Section -->
+        <!-- END - 3 - Header Buttons Section -->
     </header>
     <!-- END - Header Section -->
 
@@ -117,23 +163,23 @@
                         <div class="key-point">
                             <span>Name:</span> <p>Muhammad Usman</p>
                         </div>
-                        <div class="key-point">
+                        <!-- <div class="key-point">
                             <span>Date of Birth:</span> <p>30-09-2000</p>
+                        </div> -->
+                        <div class="key-point">
+                            <span>Degree:</span><p>Bachelor in Computer Science (BCS)</p>
                         </div>
                         <div class="key-point">
-                            <span>Degree:</span> <p>Bachelor in Computer Science (BCS)</p>
+                            <span>Phone:</span><p>+92 347 8250998</p>
                         </div>
                         <div class="key-point">
-                            <span>Phone:</span> <p>+92 347 8250998</p>
+                            <span>Email:</span><p>usmanedu8250998@gmail.com</p>
                         </div>
                         <div class="key-point">
-                            <span>Email:</span> <p>usmanedu8250998@gmail.com</p>
+                            <span>Address:</span><p>Taxila Cantt, Rawalpindi, Punjab, Pakistan</p>
                         </div>
                         <div class="key-point">
-                            <span>Address:</span> <p>HIT, Taxila Cantt, Rawalpindi, Punjab, Pakistan</p>
-                        </div>
-                        <div class="key-point">
-                            <span>Freelance:</span> <p>Available</p>
+                            <span>Freelance:</span><p>Available</p>
                         </div>
                     </div>
                 </div>
@@ -294,11 +340,11 @@
                         <h3>Education</h3>
                     </div>
                     <div class="edu-timeline-container">
-                        <div class="edu-cards" id="edu-cards">
-                            <!-- Cards will be dynamically added here -->
-                        </div>
                         <div class="edu-timeline" id="edu-timeline">
                             <!-- Nodes will be dynamically added here -->
+                        </div>                        
+                        <div class="edu-cards" id="edu-cards">
+                            <!-- Cards will be dynamically added here -->
                         </div>
                     </div>
                 </div>
@@ -855,11 +901,14 @@
 
             <!-- Footer Copyright Bar -->
             <div class="footer-copyright">
-                <p>
-                    Copyright &copy; 2024 - <span id="current-year"><script>document.write(new Date().getFullYear());</script></span> 
-                    <a href="/" target="_self">MUsmanDeveloper</a> All rights reserved.
-                    
+                <p class="Copyright-text">
+                    Copyright &copy; 2024-<span id="current-year"><script>document.write(new Date().getFullYear());</script></span> 
+                    <a href="/" target="_self" title="Muhammad Usman">Muhammad Usman</a> All rights reserved.
                 </p>
+                <br>
+                <p class="developer-text">Developed by <a href="/" target="_blank" title="Muhammad Usman">Muhammad Usman aka Markhor Badshah</a></p>
+                <br>
+                <!-- <p id="screen-size">Loading current screen size...</p> -->
             </div>
             <!-- Footer Copyright Bar -->
         </div>
